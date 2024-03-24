@@ -6,11 +6,12 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from textblob import TextBlob
 import time
+import os
 
 
 
 # Specify the path to your WebDriver executable
-driver_path = r'C:\Users\reinassance\Desktop\geckodriver.exe'
+driver_path = os.getenv('GECKODRIVER_PATH')
 
 # Initialize the WebDriver service
 service = Service(executable_path=driver_path)
