@@ -73,6 +73,10 @@ Contributions to this project are welcome! Here are a few ways you can help:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
+## Disclaimer
+
+This analysis is for educational purposes only and not financial advice. Always conduct your own research before making any investment decisions.
+
 ## Acknowledgments
 
 - **Selenium**: Thanks to the Selenium library for enabling web scraping of dynamic content rendered by JavaScript.
